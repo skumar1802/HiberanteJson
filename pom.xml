@@ -13,6 +13,9 @@
 		<hibernate.version>4.3.10.Final</hibernate.version>
 		<jdk.version>1.7</jdk.version>
 	</properties>
+
+
+
   
   
   <dependencies>
