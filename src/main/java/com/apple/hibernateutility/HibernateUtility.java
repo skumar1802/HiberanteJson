@@ -23,7 +23,7 @@ public class HibernateUtility {
 		if (factory==null){
 			log.info("BuildSessionFactory is a created using hiberante4.x method ");
 			Configuration conf= new Configuration();
-			   conf.configure("com/apple/configuration/Hibernate.cfg.xml");
+			   conf.configure("./Hibernate.cfg.xml");
 			   log.info("StandardService class is loaded for registry");
 			 StandardServiceRegistryBuilder register= new StandardServiceRegistryBuilder();
 			   register.applySettings(conf.getProperties());
